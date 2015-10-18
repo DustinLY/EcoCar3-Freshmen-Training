@@ -1,5 +1,0 @@
-create a function that takes in the radius and calculates the area of a cylinder
-create a function that takes in a length calculate the volume of a cylinder
-create a function that takes in a price and calculates the tip. The function should return the total. (TIP IS 9%)
-create a function that takes in a temperature and converts celsius to fahrenheit;
-create a function that takes in a temperature and converts farenheit to celsius
