@@ -3,4 +3,4 @@
 2. create a function that takes in a radius calculate the volume of a sphere
 3. create a function that takes in a price and calculates the tip. The function should return the total. (TIP IS 9%)
 4. create a function that takes in a temperature and converts celsius to fahrenheit;
-5. create a function that takes in a temperature and converts farenheit to celsius
+5. create a function that takes in a temperature and converts fahrenheit to celsius
