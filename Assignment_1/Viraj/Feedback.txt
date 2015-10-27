@@ -1,0 +1,23 @@
+Feedback for Viraj
+	Be consistent with your whitespaces.
+	Some of your indents use 4 spaces while others use tab. The correct way to indent in python is 4 spaces.
+	If you use 4 whitespaces to indent, you must use exactly 4 whitespaces to unindent.
+	I recommend setting your notepad editor to show you the whitespaces so that you can verify they are right. 
+
+	sphereVolume()
+		there is an issue with your function.
+		if the radius is a 5, the volume should approximate to 523.6
+			Your's returns 392.699
+			You used (4/3)*(math.pi)*float(radius)**3
+			It should be (4*(math.pi)*float(radius)**3)/3
+
+	cToF()
+		This function causes an infinite loop
+		In your except statement, you could add...
+			if celcius == 'exit':
+				loop = False
+		and then change "What is the temperature in Celsius?" to "What is the temperature in Celsius? (type 'exit' to quit program): 
+	
+	fToC()
+		In this function, the loop is pointless. You set the loop variable, start the loop, and no matte what, set the loop variable to false.
+		This function will never loop. The fix for this is the same as cToF()
