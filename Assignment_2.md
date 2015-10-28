@@ -1,4 +1,4 @@
-#Part 1
+#Assignment_2
 ###What to do
 #####This is the old "I'm thinking of a number between…". 
   When you run the program, the computer randomly generates a number.
@@ -14,18 +14,18 @@ too low, amount guessed too high, total amount of guesses).
 You'll need to generate a random number to be guessed by the user.
 
 Example of how this program's output should look after it runs:
-  run:
-  Guess the number I'm thinking of, from 1-100: 16
-  Your guess is larger than the random value. Next guess: 
-  8
-  Your guess is larger than the random value. Next guess: 
-  4
-  Your guess is smaller than the random value. Next guess: 
-  6
-  You've guessed correct!
-  Total number of guesses: 4
-  Smaller Guesses: 1
-  Larger Guesses: 2
+
+    >>> Guess the number I'm thinking of, from 1-100: 16
+    >>> Your guess is larger than the random value. Next guess: 
+    >>> 8
+    >>> Your guess is larger than the random value. Next guess: 
+    >>> 4
+    >>> Your guess is smaller than the random value. Next guess: 
+    >>> 6
+    >>> You've guessed correct!
+    >>> Total number of guesses: 4
+    >>> Smaller Guesses: 1
+    >>> Larger Guesses: 2
 
 #####Break large problems into smaller pieces!
   Sometimes it is useful for beginners to complete a smaller, simpler program before tackling the full project.
