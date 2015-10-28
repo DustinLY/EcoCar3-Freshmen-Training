@@ -1,0 +1,28 @@
+Feedback for Isaac
+  Error checking was not a requirement for Assignment_1, however it is always good to practice it.
+  Overall, you got the problems done with few lines of code while meeting the requirements.
+
+SphereArea.py
+  It would be better if the function returned the area.
+  There is no error checking.
+  Other than that, the function is fine.
+
+SphereArea2.py
+  While error checking was attempted, do not do:
+    if float(var) == float
+  This causes the code to not work even when inputting a number.
+  It is better to use a try except to attempt the conversion and respond if an error occurs
+
+SphereVolume.py
+  You forgot to cube the radius.
+  Also the function does not work. It should be:
+    (4*(math.pi)*float(radius)**3)/3
+
+tipcalc.py
+  There is no error checking done in this function.
+  If I enter 'f', the code will crash.
+  Also, in your function:
+    float(price) + float(price) * 0.09
+  It would be a good idea to use parenthesis for visual organization:
+    float(price) + (float(price) * 0.09)
+  While the multiplication will execute first either way, it just makes it easier to read.
