@@ -9,19 +9,26 @@ import random
 low_guesses=0
 high_guesses=0
 random_number=random.randint(1,100)
+play_loop=True
 loop=True
 while loop:
   user_guess=raw_input("Guess a number between 1 and 100 or enter 0 to quit.\n")
   try:
     if int(user_guess)==random_number:
       print"You guessed correctly!\nGuesses that were too low: "+str(low_guesses)+"  too high: "+str(high_guesses)+"."
-      play_again=raw_input("Do you want to play again? [1=yes, 2=no]  ")
-      if play_again=="2":
-        loop=False
-      elif play_again=="1":
-        low_guesses=0
-        high_guesses=0
-        random_number=random.randint(1,100)
+      while play_loop:
+        play_again=raw_input("Do you want to play again? [1=yes, 2=no]  ")
+        if play_again=="2":
+          loop=False
+          play_loop=False
+        elif play_again=="1":
+          low_guesses=0
+          high_guesses=0
+          random_number=random.randint(1,100)
+          play_loop=False
+        else:
+          print "Please enter a valid input"
+          play_again=raw_input("Do you want to play again? [1=yes, 2=no]  ")
     elif int(user_guess)>random_number and int(user_guess)>=1 and int(user_guess)<=100:
       print"Too high!"
       high_guesses=high_guesses+1
@@ -34,4 +41,4 @@ while loop:
     else:
       print"Guess a number from 1 to 100 please."
   except:
-    print"Invalid input please try again."
+    print"Invalid input please try again you fucking stupid."
