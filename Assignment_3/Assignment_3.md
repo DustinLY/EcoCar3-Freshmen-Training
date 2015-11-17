@@ -34,14 +34,6 @@ It will contain 5 fields:
 
 Write four methods in this class
 
--   display()
-
-    -   calls getAppointment() and print out the appointment object it returns.
-
--   getAppointment()
-
-    -   ask the user to input the information and return a single Appointment object with the fields set. Make sure you verify the data in the object is valid.
-
 -   printAppointment()
 
     -   will nicely format and print the Appointment object.
@@ -64,10 +56,6 @@ Some methods you must implement in the Planner class for this project:
 
     -   constructor that places the 4 default Appointment objects in the array
 
--   run()
-
-    -   displays the menu, gets input, acts on that input
-
 -   compareAppointments(Appointment A1, Appointment A2)
 
     -   returns true if A1 < A2, false otherwise
@@ -76,16 +64,12 @@ Some methods you must implement in the Planner class for this project:
 
     -   places A1 in the proper (sorted) slot of the array
 
--   addAppointment()
-
-    -   calls getAppointment() from the Appointment class
-
 -   listAppointment()
 
     -   list all appointments in the array (in order) with a number in front
 
 -   deleteAppointment()
 
-    -   delete using the number list outputs in front of the appointment
+    -   delete an appointment selected by the user
 
 You may name the methods whatever you wish and you may add additional methods to the Planner and Appointment classes as long as you clearly document 'what' and 'why' you added the method. Each class should be in its own file.
