@@ -32,7 +32,7 @@ It will contain 5 fields:
 -   minute (int)
 -   message (String no longer then 40 characters).
 
-Write four methods in this class
+Write two methods in this class
 
 -   printAppointment()
 
