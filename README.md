@@ -10,7 +10,7 @@ This is the modified datagram queue table designed to handle odyssey messages
 
 ### COLUMNS
 
-*  [Datagram_ID](#DATAGRAM-ID)
+*  [Datagram_ID](#datagram-id)
 *  [Message_Name](#MESSAGE_NAME)
 *  [Message_Data](#MESSAGE_DATA)
 *  [Date_Received](#DATE_RECEIVED)
